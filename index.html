@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEMINAR HALL BOOKING</title>
+	<style type="text/css">
+		th{
+			border : 1px solid black;
+		}
+		h2{
+			background-color: #EE82EE;
+			text-decoration: underline;
+		}
+		body{
+			background-color: #FFC0CB;
+			
+		}
+		h3{
+			background-color: #DAA520;
+			text-decoration: underline;
+
+		}
+	</style>
+		
+</head>
+<body>
+	
+	<h2 align="center"> <img src="download (11).jpg " width="35px" height="25px"  alt="download (11).jpg">VALUE INFINITY</h2>
+	
+
+	<table  style="width: 100%" cellspacing="0" cellpadding="5">
+		<thead>
+			<tr>
+				<th><a href="About.html">About</a></th>
+				<th><a href="index.html">Home</a></th>
+				<th><a href="contact.html">contact</a></th>
+				
+				
+				
+				<th><form>
+			<label>search</label>
+			<input type="search" name="s" placeholder="search for new"><input type="submit" name="s" value="search">
+		</form></th>
+			</tr>
+
+		</thead>
+	</table>
+	<div align="center">
+	<img src="download (2).jpg"><img src="download (3).jpg"><img src="download (4).jpg"><img src="download (5).jpg">
+</div>
+
+		
+	<br>
+	<h3 align="center">SEMINAR HALL BOOKING FORM</h3>
+	<br>
+	<center>
+		<form autocomplete="off" required>
+			<label>Your Name:</label>
+			<input type="text" name="name" required="name" placeholder="your Name">
+			<br><br>
+
+			<label>Email id:</label>
+			<input type="Email" name="em" required="em" placeholder="abs12@gmail.com">
+			<br><br>
+
+			<label>Phone Number:</label>
+			<input type="tel" pattern="[0-9]{10}" name="phone" id="phone" required="number" placeholder="1234567890">
+			<br><br>
+
+			<label>Native place:</label>
+			<input type="text" name="place" required="text" placeholder="your native place">
+			<br><br>
+
+			<label>From date:</label>
+			<input type="date" name="datemin" id="datemin" min="2020-07-20">
+			<label>To date:</label>
+			<input type="date" name="datemin" id="datemin" min="2020-07-20">
+			<br><br>
+
+			<label>Approval Number:</label>
+			<input type="text" name="number" required="number" placeholder="6 digit number">
+			<br><br>
+			<label>Approval Date given:</label>
+			<input type="date" name="date" required="number">
+			<br><br>
+
+
+			<label>Session:</label>
+			<select >
+				<option value="select the session">select the session</option>
+				<option value="Full day">Full day</option>
+				<option value="Half a day">Half a day</option>
+			</select>
+			<br><br>
+
+			<label>Seminar hall name:</label>
+			<select>
+				<option value="select the hall">select the hall</option>
+				<option value="SRM seminar hall">SRM seminar hall</option>
+				<option value="Ramanujam seminar hall">Ramanujam seminar hall</option>
+				<option value="VS seminar hall">VS seminar hall</option>
+				<option value="Seetha lakshmi seminar hall">Seetha lakshmi seminar hall</option>
+				<option value="Geetha murali seminar hall">Geetha murali seminar hall</option>
+				<option value="Santhosh seminar hall">Santhosh seminar hall</option>
+			</select>
+			<br><br>
+			<label>Session starting time: </label>
+			<input type="time" name="time">
+			<br><br>
+			<label>Ending time:</label>
+			<input type="time" name="time">
+			<br><br>
+			<label>AC requirement:</label>
+			<input type="checkbox" name="ch" value="non-ac" required="NON-AC">Non-AC
+			
+			<input type="checkbox" name="ch" value="AC" required="AC">AC
+			<br><br>
+
+			<label>Number of person Expected:</label>
+			<input type="number" name="number" required="number" placeholder="members">
+			<br><br>
+			<label>purpose of Event:</label>
+
+			<select>
+				<option value="select the event">select the event</option>
+				<option value=" company conference"> company conference</option>
+				<option value="Marriage">Marriage</option>
+				<option value="wedding">wedding</option>
+				<option value="party"> party</option>
+				<option value="gathering">gathering</option>
+			</select>
+			<br><br>
+
+			<input type="submit" name="s" value="submit">
+		</form>
+
+	</center>
+	
+
+
+</body>
+</html>
